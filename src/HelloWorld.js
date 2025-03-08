@@ -5,11 +5,16 @@ const HelloWorld = (props) => {
 }
 
 export const HelloTitle = (props) => {
+
+    function handleClick() {
+        alert("Button clicked!!");
+    }
     return (
         <div>
-            <h1>This is a title by {props.name}</h1>
+            <h1 className="title">This is a title by {props.name}</h1>
             <h2>This is the sub-title</h2>
             <p>This is a paragraph</p>
+            <button onClick={handleClick}>Click here</button>
         </div>
     )
 }
