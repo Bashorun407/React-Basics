@@ -5,9 +5,21 @@ import MC, { FirstComponent as FC, SecondComponent } from './components/myCompon
 import Hello, { CallMe, Goodie } from './components/hello';
 import HelloWorld, { HelloTitle } from './HelloWorld';
 import Student from './components/student';
+import Soldier from './components/soldier';
 
 
 function App() {
+  const student = {
+    firstName: "Bunmi",
+    lastName: "Jagun",
+    email: "bumsjag@gmail.com"
+  }
+
+  const soldier = {
+    country: "Nigeria",
+    amunition: "AK-47",
+    speciality: "reconnaissance"
+  }
   return (
     <div className="App">
       {/* <Greeting name="Adunni" />
@@ -20,16 +32,18 @@ function App() {
       <Goodie name="Jagaban" /> */}
       {/* <HelloWorld name="Bashorun Akin" />
       <HelloTitle name="Olu" /> */}
-      <Student
-        firstName="Balogun"
-        lastName="Ajagun"
-        email="balgun@gmail.com"
-      />
-      <Student
+      {/* <Student
         firstName="Rosa"
         lastName="Ogunmodede"
         email="rosoguns@gmail.com"
+      /> */}
+      <Student
+        student_detail={student}
       />
+      <Soldier
+        soldier_info={soldier}
+      />
+
     </div>
 
   );
