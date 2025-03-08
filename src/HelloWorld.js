@@ -4,4 +4,14 @@ const HelloWorld = (props) => {
     return myElement
 }
 
+export const HelloTitle = (props) => {
+    return (
+        <div>
+            <h1>This is a title by {props.name}</h1>
+            <h2>This is the sub-title</h2>
+            <p>This is a paragraph</p>
+        </div>
+    )
+}
+
 export default HelloWorld

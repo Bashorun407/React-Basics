@@ -3,7 +3,7 @@ import './App.css';
 import Greeting from './components/greeting';
 import MC, { FirstComponent as FC, SecondComponent } from './components/myComponents';
 import Hello, { CallMe, Goodie } from './components/hello';
-import HelloWorld from './HelloWorld';
+import HelloWorld, { HelloTitle } from './HelloWorld';
 
 
 function App() {
@@ -14,10 +14,11 @@ function App() {
       <FC />
       <SecondComponent />
       <MC /> */}
-      <Hello name="Jubrillah!!" />
+      {/* <Hello name="Jubrillah!!" />
       <CallMe name="Heimdel" />
-      <Goodie name="Jagaban" />
+      <Goodie name="Jagaban" /> */}
       <HelloWorld name="Bashorun Akin" />
+      <HelloTitle name="Olu" />
     </div>
 
   );
