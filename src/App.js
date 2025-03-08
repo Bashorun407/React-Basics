@@ -6,14 +6,20 @@ import Hello, { CallMe, Goodie } from './components/hello';
 import HelloWorld, { HelloTitle } from './HelloWorld';
 import Student from './components/student';
 import Soldier from './components/soldier';
+import Skills from './components/skills';
+import Students from './components/student_des';
+
 
 
 function App() {
+
   const student = {
     firstName: "Bunmi",
     lastName: "Jagun",
     email: "bumsjag@gmail.com"
   }
+
+  const skills = ['HTM', 'CSS', 'Java', '.NET'];
 
   const soldier = {
     country: "Nigeria",
@@ -43,7 +49,12 @@ function App() {
       <Soldier
         soldier_info={soldier}
       />
-
+      <Skills
+        skill_up={skills}
+      />
+      <Students
+        firstName="Ade"
+        lastName="Ishola" />
     </div>
 
   );
