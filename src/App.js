@@ -8,6 +8,7 @@ import Student from './components/student';
 import Soldier from './components/soldier';
 import Skills from './components/skills';
 import Students from './components/student_des';
+import Employee from './components/employee';
 
 
 
@@ -43,7 +44,7 @@ function App() {
         lastName="Ogunmodede"
         email="rosoguns@gmail.com"
       /> */}
-      <Student
+      {/* <Student
         student_detail={student}
       />
       <Soldier
@@ -54,7 +55,9 @@ function App() {
       />
       <Students
         firstName="Ade"
-        lastName="Ishola" />
+        lastName="Ishola" /> */}
+
+      <Employee />
     </div>
 
   );

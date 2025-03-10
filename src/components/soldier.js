@@ -8,6 +8,7 @@ export const Soldier = (props) => {
             <p>Country: {props.soldier_info.country}</p>
             <p>Ammunition: {props.soldier_info.amunition}</p>
             <p>Speciality: {props.soldier_info.speciality}</p>
+
             <button className="title" onClick={clickHandler}>Learn more</button>
         </div>
     )
