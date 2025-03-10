@@ -6,15 +6,27 @@ class Employee extends React.Component {
         super(props)
 
         this.state = {
-            firstName: "Olusheyi"
+            firstName: "Olusheyi",
+            lastName: "Bashorun",
+            email: "olubash@gmail.com"
         }
     }
 
+    updateEmployee() {
+        this.setState({
+            firstName: "Ade",
+            lastName: "Odeyemi",
+            email: "adeodanz@gmail.com"
+        })
+    }
     render() {
         return (
             <div className="center">
                 <h1>Employee Details</h1>
                 <p>{this.state.firstName}</p>
+                <p>{this.state.lastName}</p>
+                <p>{this.state.email}</p>
+                <button onClick={() => this.updateEmployee()}>Update Employee</button>
             </div>
         )
     }
