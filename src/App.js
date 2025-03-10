@@ -9,7 +9,7 @@ import Soldier from './components/soldier';
 import Skills from './components/skills';
 import Students from './components/student_des';
 import Employee from './components/employee';
-
+import User from './components/user';
 
 
 function App() {
@@ -57,7 +57,9 @@ function App() {
         firstName="Ade"
         lastName="Ishola" /> */}
 
-      <Employee />
+      {/* <Employee /> */}
+
+      <User />
     </div>
 
   );
