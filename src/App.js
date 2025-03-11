@@ -10,6 +10,7 @@ import Skills from './components/skills';
 import Students from './components/student_des';
 import Employee from './components/employee';
 import User from './components/user';
+import EventHandling from './components/eventHandling';
 
 
 function App() {
@@ -59,7 +60,9 @@ function App() {
 
       {/* <Employee /> */}
 
-      <User />
+      {/* <User /> */}
+
+      <EventHandling />
     </div>
 
   );
