@@ -11,6 +11,7 @@ import Students from './components/student_des';
 import Employee from './components/employee';
 import User from './components/user';
 import EventHandling from './components/eventHandling';
+import ConditionRendering from './components/ConditionRendering';
 
 
 function App() {
@@ -62,7 +63,9 @@ function App() {
 
       {/* <User /> */}
 
-      <EventHandling />
+      {/* <EventHandling /> */}
+
+      <ConditionRendering />
     </div>
 
   );
