@@ -12,6 +12,8 @@ import Employee from './components/employee';
 import User from './components/user';
 import EventHandling from './components/eventHandling';
 import ConditionRendering from './components/ConditionRendering';
+import TernaryConditionRendering from './components/ConditionRenderingTernary';
+
 
 
 function App() {
@@ -65,7 +67,8 @@ function App() {
 
       {/* <EventHandling /> */}
 
-      <ConditionRendering />
+      {/* <ConditionRendering /> */}
+      <TernaryConditionRendering />
     </div>
 
   );
